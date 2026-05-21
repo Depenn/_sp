@@ -107,7 +107,9 @@ Static frontend with **Tailwind CSS** for styling and **Leaflet.js** for map ren
 
 #### Problem
 
-Write an educational book titled **"The Verilog Architect: From Logic Gates to RISC-V"** that teaches digital design from a hardware mindset. The book must include both explanatory chapters and runnable Verilog code examples.
+Write an educational book, preferably using teacher's reference books.
+
+I choose to Write an educational book titled **"The Verilog Architect: From Logic Gates to RISC-V"** that teaches digital design from a hardware mindset. The book must include both explanatory chapters and runnable Verilog code examples.
 
 #### General Approach
 
