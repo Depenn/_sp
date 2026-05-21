@@ -1,13 +1,15 @@
 # System Programming — Notes, Exercises & Reports
+# 課程：系統程式 -- 筆記、習題與報告
 
-| Field | Content |
-|-------|---------|
-| Semester | 114b (Spring 2026) |
-| Student | Lin Shun-Yi |
-| Instructor | [Chen Chung-Cheng](https://www.nqu.edu.tw/educsie/index.php?act=blog&code=list&ids=4) |
-| Department | [Computer Science and Information Engineering](https://www.nqu.edu.tw/educsie/index.php) |
-| University | [National Quemoy University](https://www.nqu.edu.tw) |
-| Course Materials | [ccc114b/cpu2os](https://github.com/ccc114b/cpu2os) |
+欄位 | 內容
+-----|--------
+學期 | 114 學年下學期
+學生 |  林順義
+學號末兩碼 | 21
+教師 | [陳鍾誠](https://www.nqu.edu.tw/educsie/index.php?act=blog&code=list&ids=4)
+學校科系 | [金門大學資訊工程系](https://www.nqu.edu.tw/educsie/index.php)
+課程教材 | https://github.com/ccc114b/cpu2os<br/>https://github.com/cccbook/ai-teach-you/blob/main/sp/tw/README.md<br/>https://github.com/ccc-c/c0computer
+
 
 ---
 
