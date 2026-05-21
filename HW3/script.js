@@ -107,8 +107,8 @@ function renderCards(data) {
                 <div class="bg-slate-50 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
                     <svg class="w-10 h-10 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 9.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                 </div>
-                <h3 class="text-xl font-bold text-slate-700">Maaf, gunung tidak ditemukan</h3>
-                <p class="text-slate-500 mt-2">Coba sesuaikan kata kunci atau filter yang kamu gunakan.</p>
+                <h3 class="text-xl font-bold text-slate-700">No mountains found</h3>
+                <p class="text-slate-500 mt-2">Try adjusting your search keywords or filters.</p>
             </div>
         `;
         return;
@@ -168,14 +168,14 @@ window.openModal = function(id) {
 
     const pathsList = document.getElementById('modal-paths');
     pathsList.innerHTML = '';
-    const paths = mountain.jalur_populer || ["Jalur Utama Basecamp", "Jalur Alternatif"];
+    const paths = mountain.jalur_populer || ["Main Basecamp Trail", "Alternative Trail"];
     paths.forEach(path => {
         const li = document.createElement('li');
         li.textContent = path;
         pathsList.appendChild(li);
     });
 
-    const waMsg = encodeURIComponent(`Halo, saya ingin bertanya tentang pendakian gunung ${mountain.nama}.`);
+    const waMsg = encodeURIComponent(`Hello, I would like to ask about climbing ${mountain.nama}.`);
     document.getElementById('modal-wa-btn').href = `https://wa.me/${mountain.basecamp_wa}?text=${waMsg}`;
 
     modal.classList.remove('hidden');
@@ -214,7 +214,7 @@ function showErrorMessage() {
         container.innerHTML = `
             <div class="col-span-full text-center py-20 bg-red-50 text-red-600 rounded-xl border border-red-100">
                 <p class="font-bold text-lg">Error!</p>
-                <p>Gagal memuat data gunung. Silakan cek file gunung.json atau koneksi kamu.</p>
+                <p>Failed to load mountain data. Please check the gunung.json file or your connection.</p>
             </div>
         `;
     }
